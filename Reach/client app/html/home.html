@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	    <!--Reachly scripts and sheets -->
+	    <link type="text/css" rel="stylesheet" media="screen" href="Reachly_home.css">
+
+	    <meta name="apple-mobile-web-app-capable" content="no" />
+	    <meta http-equiv="cache-control" content="no-cache" />
+	    <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+	    <!--<meta name="apple-mobile-web-app-status-bar-style" content="black" />-->
+	    <meta name="viewport" content="initial-scale=1.0, width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+	    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	    <script type="text/javascript" src="libs/cubiq2/twis.js"></script>
+
+	    <title>Reach</title>
+	</head>
+
+	<body>
+	    <div id="container">
+	        <div id="top_bar">
+	            <div id="top_left_button">Menu</div>
+	            <div id="top_title">Map</div>
+	            <div id="notifications">(3)</div>
+	            <div id="top_right_button">Profile</div>
+	        </div>
+	        <div id="map_view">
+	            <div class="scrollable" id="map_canvas"></div>
+	        </div>
+	        <div class="scrollable" id="profile_view">
+	            <div id="profile_top">
+	                <div id="profile_pic">
+	                    <img src="/69/media/profile.jpg">
+	                </div>
+	                <div id="profile_top_right">
+	                    <div id="profile_banner">Said some things.</div>
+	                    <div id="profile_sub1">goals</div>
+	                    <div id="profile_sub2">followers</div>
+	                </div>
+	            </div>
+	            <div id="profile_middle">
+	                <div id="description">Description:
+
+	                </div>
+	                <div id="profile_map"></div>
+	            </div>
+	            <div id="profile_bottom">
+	                <div id="notifications_menu">Notifications</div>
+	                <div id="location">Location</div>
+	                <div id="contacts">Contacts</div>
+	                <ul id="profile_list">
+	                    <li>Pretty row 1</li>
+	                    <li>Pretty row 2</li>
+	                    <li>Pretty row 3</li>
+	                    <li>Pretty row 4</li>
+	                    <li>Pretty row 5</li>
+	                    <li>Pretty row 6</li>
+	                    <li>Pretty row 7</li>
+	                    <li>Pretty row 8</li>
+	                    <li>Pretty row 9</li>
+
+	                </ul>
+	            </div>
+	        </div>
+	        <div id="footer">
+	            <div id="bottom_bar">
+	                <div id="box1">Chat</div>
+	                <div id="box2">group</div>
+	                <div id="box3">goal</div>
+	                <div id="box4">Cause</div>
+	            </div>
+	            <div id="bottom_field">
+
+	            </div>
+	        </div>
+	        <div id="btm_msg"></div>
+	    </div>
+	    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAduiEHD7PsSCPtz667Vo8pbigERACcL_U&sensor=true"></script>
+	    <script type="text/javascript" src="Reachly.js"></script>
+	    <script type="text/javascript" src="map.js"></script>
+	    <script type="text/javascript" src="libs/infobubble/infobubble.js"></script>
+	</body>
+
+	<script type="text/javascript">
+		function my_scroll() {
+		    function loaded() {
+		        window.removeEventListener('load', loaded, false);
+		    }
+		    window.addEventListener('load', loaded, false);
+		}
+		var handleMove = function(e) {
+		    var scrollable = false;
+		    var items = $(e.target).parents();
+		    $(items).each(function(i, o) {
+		        if ($(o).hasClass("scrollable")) {
+		            scrollable = true;
+		        }
+		    });
+		    if (!scrollable)
+		        e.preventDefault();
+		};
+		document.addEventListener('touchmove', handleMove, true);
+
+		$('#box3').click(function() {
+		    window.location = "/home.html";
+		});
+
+		$('#box1').click(function() {
+
+		    user.page = 1;
+		    $('#bottom_field').load('chat_page.html');
+		});
+
+		$('#box2').click(function() {
+		    console.log($.cache);
+		    menu();
+		});
+
+		$('#box4').click(function() {
+		    //move the call back to a document on ready event in the cause page for smoother animation
+		    function handle() {
+		        if (user.page !== 4) {
+		            user.page = 4;
+		            load_cause();
+		        }
+		    }
+		    menu(handle());
+		});
+
+		$('#top_left_button').click(function() {
+		    var array = [];
+		    $('#thelist li').each(function() {
+		        array.push(
+		            [$(this).children('.li_title').text(),
+		                $(this).data('lat'),
+		                $(this).data('lng')
+		            ]
+		        );
+		    });
+		    $('#thelist2 li').each(function() {
+		        array.push(
+		            [$(this).children('.li_title').text(),
+		                $(this).data('lat'),
+		                $(this).data('lng')
+		            ]
+		        );
+		    });
+		    markers(array);
+		});
+
+		$('#top_right_button').click(function() {
+		    show_map();
+		});
+	</script>
+
+</html>

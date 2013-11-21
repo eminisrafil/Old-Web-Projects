@@ -1,0 +1,408 @@
+1344959930TS---><!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+	<head>
+
+
+<!-- E1Ui-QoEufZ19fwT6sUZ5XDVDts --><!-- Alexa ID -->
+<meta property="og:image" content="http://www.profilegraveyard.com/images/fbkitler.png" />
+<meta property="og:image" content="http://www.profilegraveyard.com/images/jesus-friday-night-100-x-100.png" />
+<meta property="og:site_name" content="Profilegraveyard" />
+<meta property="fb:admins" content="8111333, 8111020" />
+
+		<title>Profile Graveyard - Where your social networking profiles go to die.
+			 - View Obituaries				</title>
+				<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.profilegraveyard.com/post/view/169" />
+<meta property="og:description" content="I got tired of telling my girlfriend I was going to bed, then having to hold back from posting about my awesome night out on facebook, so I dumped both. " /><meta property="og:title" content="Get the guts to deactivate..." />
+		<link rel="icon" type="image/png" href="http://profilegraveyard.com/images/fav.png">
+<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://profilegraveyard.com/css/screen.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="http://profilegraveyard.com/css/style.css?v=5" type="text/css" media="screen" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript" charset="UTF-8"></script>
+		<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="http://profilegraveyard.com/js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="http://profilegraveyard.com/js/jquery.flipCounter.1.1.pack.js"></script>
+                <script type="text/javascript" src="http://profilegraveyard.com/js/jquery.webticker.js"></script>
+<script src="https://www.google.com/jsapi?key=ABQIAAAAkiDMXYba0DucD-fADTVXLxTGyPnrOta1Pbc4_K2z8dGwwU6SbBR2oKhC1fhp8W8U0eeahqM7cvfBGA" type="text/javascript"></script>    <script type="text/javascript">
+    $(window).scroll(function(){
+    		if(document.body.scrollTop > '200')
+    		{
+    			$('#likeus').slideUp(1000);
+    		}
+    });
+    </script>
+		<script type="text/javascript">
+
+
+               
+			function vote(voteVal, obId){
+				
+				$.ajax({
+					url: "http://profilegraveyard.com/post/vote" + "/" + obId + "/" + voteVal,
+					type: 'POST',
+					success: function(data){
+						$('#' + obId).html(data);
+					}
+				});
+				return false;
+			}
+			var togval = 0;
+			function togglesubmit()
+			{
+				if (togval == 0)
+				{
+					$('#newObit').slideDown(1000);
+					togval = 1;
+				} else {
+					$('#newObit').slideUp(1000);
+					togval = 0;
+				}
+				return false;
+			}
+			
+			function deathdate()
+			{
+				$('#deathy')
+				    .find('option')
+				    .remove()
+				    .end()
+				    .append('<option value="0">Died</option>')
+				    .val('0')
+				;
+				var ddl = $('#deathy');
+				for (i = $('#birthy').val(); i <= 2011; i++)
+				{
+					ddl.append("<option value='" +i+ "'>" + i + "</option>");
+				}
+			}
+
+	function validate(){
+		$.ajax({url: "http://profilegraveyard.com/post/newobit",
+			data: $('form').serialize(),type: 'POST',
+			success: function(data){$('#xtra').html(data);
+				}
+		});
+		return false;
+	}
+	
+</script>
+<script type="text/javascript">jQuery(function(){
+	jQuery("#webticker").webTicker();
+});</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1735810-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	</head>
+	<body>
+		
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>			
+		<div id="container" class="container">
+			<div id="header">
+				<div id="headimg">
+					<a href="http://profilegraveyard.com/main/index" title="Home"><img src="http://profilegraveyard.com/images/head.jpg"></a>				</div>
+				<div id="headlinks">
+					<a href="http://profilegraveyard.com/main">HOME</a><span class="postblue">t</span><a href="http://profilegraveyard.com/top">RANKING</a><span class="postblue">t</span><a href="http://profilegraveyard.com/main/random">RANDOM</a><span class="postblue">t</span><a href="http://profilegraveyard.com/moderate">MODERATE</a><span class="postblue">t</span><a href="javascript:void();" onclick="return togglesubmit();">SUBMIT</a>
+									<img id="timesaved" src="http://profilegraveyard.com/images/timesaved.jpg">
+				</div>
+				<div id="headstats">
+					<div id="countries_scroll">
+					<ul id="webticker">
+					<li>New York: 99996</li><li><span class="postblue">t</span></li> <li>New Jersey: 64792</li><li><span class="postblue">t</span></li> <li>Florida: 35412</li><li><span class="postblue">t</span></li> <li>California: 30472</li><li><span class="postblue">t</span></li> <li>Texas: 30212</li><li><span class="postblue">t</span></li> <li>T'ai-pei: 26208</li><li><span class="postblue">t</span></li> <li>Kansas: 13208</li><li><span class="postblue">t</span></li> <li>Arkansas: 8060</li><li><span class="postblue">t</span></li> <li>Iowa: 7072</li><li><span class="postblue">t</span></li> <li>Massachusetts: 6812</li><li><span class="postblue">t</span></li> <li>Idaho: 6292</li><li><span class="postblue">t</span></li> <li>Maryland: 6240</li><li><span class="postblue">t</span></li> <li>Pennsylvania: 6240</li><li><span class="postblue">t</span></li> <li>-: 5928</li><li><span class="postblue">t</span></li> <li>Connecticut: 5356</li><li><span class="postblue">t</span></li> 					</ul>
+					</div>
+					<a href="http://profilegraveyard.com/main/stats">Map</a><span id="hour_counter"><input type="hidden" name="counter-value" value="0" /><span style="padding:5px;float:right"> 
+	<form>
+	<select on onchange="time_change()" id="time_type">
+		<option value="hours" selected="selected">hours</option>
+		<option value="days">days</option>
+		<option value="years">years</option>
+	</select>
+	</form>
+	</span></span>
+
+				</div>
+			</div>
+			<div id="wrapper">
+				<div id="newObit" class="submitpost post span-17">
+	<div id="xtra"></div>
+	<form method="post" onSubmit="return validate();" id="new_obit">
+		<label for="category">Profile:</label>
+		<select name="category">
+<option value="0" selected="selected">Select...</option>
+<option value="1">Facebook</option>
+<option value="8">Foursquare</option>
+<option value="7">Google</option>
+<option value="6">LinkedIn</option>
+<option value="2">MySpace</option>
+<option value="5">Online Dating</option>
+<option value="4">Other</option>
+<option value="3">Twitter</option>
+</select>
+		<label for="birthy">Account Life:</label>
+		<select name="birthy" id="birthy" onChange="deathdate();">
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+<option value="2009">2009</option>
+<option value="2008">2008</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+<option value="2000">2000</option>
+<option value="0" selected="selected">Born</option>
+</select>
+		<label for="deathy">:</label>
+		<select name="deathy" id="deathy">
+<option value="0" selected="selected">Died</option>
+</select>
+		<label for="hourswasted">Hours Wasted/Week:</label>
+		<input type="text" name="hourswasted" value="" id="hourswasted" />
+		<div id="obitDiv" style="margin-top:1.5em;">
+			<label for="obit_text" class="left post-label">Obituary:</label>
+			<textarea name="obit_text" cols="90" rows="12" id="obit_text" placeholder="Get the guts to deactivate..." class="left postBody" ></textarea>
+		</div>
+		<div id="emailDiv">
+			<label for="email" class="left post-label">Email (optional):</label>
+			<input type="text" name="email" value="" id="email" class="left email" placeholder="Email" style="margin-left: 2em;"  />
+			<label for="nickname" class="left post-label">Nickname (optional):</label>
+			<input type="text" name="nickname" value="" id="nickname" class="left" placeholder="Nickname" style="margin-left: 2em;"  />
+			<span class="right" style="margin-right:30px;">
+				<button name="submit" type="button" onClick="return validate();" id="newO">Submit</button>
+			</span>
+		</div>
+	</form>
+	</div>
+<div id="body" class="span-18 left">					<div class="post">
+						<div class="postTop">
+							<p>I got tired of telling my girlfriend I was going to bed, then having to hold back from posting about my awesome night out on facebook, so I dumped both. </p>
+						</div>
+						<div class="postMid">
+							<ul>
+								<li>Profile: <span class="postblue">Facebook</span></li>
+								<li>Location: <span class="postblue">United States (Arizona)</span></li>
+								<li>RIP: <span class="postblue">2008 - 2011</span></li>
+								<li>Hours/Week: <span class="postblue">15</span></li>
+							</ul>
+						</div>
+					</div> 
+						<div class="postBottom">
+							<table>
+								<tr>
+									<td width="350px">
+										<div>
+											<span id="169">
+												<a href="javascript:void(0);" onClick="vote('1', '169')">Mourn the Dead (72)</a> | 
+												<a href="javascript:void(0);" onClick="vote('2', '169')">You Dug Your Own Grave (92)</a>
+											</span>
+ | <a href="http://profilegraveyard.com/post/view/169" title="Add comment">Comment</a>										</div>
+										<div class="postby">
+											Posted by: rickshaw at 10:43 am January 4, 2012										</div> 
+									</td>
+									<td>		
+										<a class="share_button" target="_blank" href="http://www.facebook.com/sharer.php?u=http://www.profilegraveyard.com/post/view/169">Share</a></td>
+									<td>
+										<div id="fb-root"></div>
+										<div class="fb-like" data-href="http://profilegraveyard.com/post/view/169" data-send="false" data-layout="button_count" data-width="75px" data-show-faces="false"></div>
+									</td>
+									
+								</tr>
+							</table>
+						</div><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-comments" data-href="http://profilegraveyard.com/post/view/169" data-num-posts="15" data-width="500"></div>
+	</div>
+	<div id="sidebar" class="span-5 right">
+	<div id="categories">
+		<ul>
+			<li><span class="postblue">Categories:</span></li>
+			<li><a href="http://profilegraveyard.com/main/cat/0">All</a></li>
+			<li><a href="http://profilegraveyard.com/main/cat/1">Facebook</a></li>
+			<li><a href="http://profilegraveyard.com/main/cat/8">Foursquare</a></li>
+			<li><a href="http://profilegraveyard.com/main/cat/7">Google</a></li>
+			<li><a href="http://profilegraveyard.com/main/cat/6">LinkedIn</a></li>
+			<li><a href="http://profilegraveyard.com/main/cat/2">MySpace</a></li>
+			<li><a href="http://profilegraveyard.com/main/cat/5">Online Dating</a></li>
+			<li><a href="http://profilegraveyard.com/main/cat/4">Other</a></li>
+			<li><a href="http://profilegraveyard.com/main/cat/3">Twitter</a></li>
+		</ul>
+	</div>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-8992167894741467";
+/* Small Square Right Side */
+google_ad_slot = "1983947247";
+google_ad_width = 200;
+google_ad_height = 200;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<br>
+<br>
+
+<a href="http://www.zazzle.com/profilegraveyard" target="_blank"> <img src="/images/kittytshirt.jpg" id="store_img"></a>
+
+<br>
+
+<a href="http://www.zazzle.com/profilegraveyard" target="_blank"> <center>Occupy Our Store</center></a>
+
+
+
+	</div>
+</div>
+<div id="footer">
+	<div id="footwhite"></div>
+	<div id="footgray">
+	</div>
+	<div id="footlinks">
+		<span class="left">
+			<img src="http://profilegraveyard.com/images/foot.jpg">
+ <div id = "copyright"> Copyright &#169; 2012 ProfileGraveyard.com. All rights reserved. </div>		</span>
+<div class="right">		<span class="right footnav">
+<a href="http://profilegraveyard.com/main">home</a>|<a href="http://profilegraveyard.com/about/us">about us</a>|<a href="http://profilegraveyard.com/top">top</a>|<a href="http://profilegraveyard.com/moderate">moderate</a>		</span></div>
+<div id="sharebox" class="right"><table>
+	<tr><td>
+<div style="display:block;float:right;">
+<div id="fb-root"></div>
+<div class="fb-like" data-href="http://www.facebook.com/profilegraveyard" data-send="false" data-layout="box_count" data-width="50" data-show-faces="false"></div>
+</div></td><td>
+<div style="display:block;float:right;">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.profilegraveyard.com" data-text="Get the guts to deactivate... #profilegraveyard" data-count="vertical">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+</div>
+</td>
+<td><div style="display:block;float:right;">
+<script src="http://www.stumbleupon.com/hostedbadge.php?s=5&r=http://www.profilegraveyard.com"></script>
+</div>
+</td>
+<td>
+<div style="display:block;float:right;">
+<!-- Place this tag where you want the +1 button to render -->
+<g:plusone size="tall" href="http://www.profilegraveyard.com"></g:plusone>
+
+<!-- Place this render call where appropriate -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+</div></td>
+</tr></table>
+</div>		<div>
+			<div id="footad">
+				<div id="adfoot">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-8992167894741467";
+/* PrograveLeaderboard */
+google_ad_slot = "3692921692";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+		<script type="text/javascript">
+
+        jQuery(document).ready(function($) {
+       		 $("#hour_counter").flipCounter({
+                	imagePath:"http://profilegraveyard.com/images/flipCounter-medium.png",
+                	digitHeight:24,
+                	digitWidth:18,
+                	numIntegralDigits: 15
+             });
+				$("#hour_counter").flipCounter(
+		        "startAnimation", // scroll counter from the current number to the specified number
+		        {
+		                number: 452452, // the number we want the counter to scroll to
+		                easing: jQuery.easing.easeOutCubic, // this easing function to apply to the scroll.
+		                duration: 10 // number of ms animation should take to complete
+		        });
+        });
+	
+	function time_change(){
+		var hour_total = 452452;
+		var day_total = 18852.1666667;
+		var year_total = 51.6497716895;
+		switch ($('#time_type').val())
+		{
+			case 'hours':
+				$("#hour_counter").flipCounter(
+		        "startAnimation", // scroll counter from the current number to the specified number
+		        {
+		                number: hour_total, // the number we want the counter to scroll to
+		                easing: jQuery.easing.easeOutCubic, // this easing function to apply to the scroll.
+		                duration: 1000 // number of ms animation should take to complete
+		        });
+				break;
+			case 'days':
+				$("#hour_counter").flipCounter(
+		        "startAnimation", // scroll counter from the current number to the specified number
+		        {
+		                number: day_total, // the number we want the counter to scroll to
+		                easing: jQuery.easing.easeOutCubic, // this easing function to apply to the scroll.
+		                duration: 1000 // number of ms animation should take to complete
+		        });
+				break;
+			case 'years':
+				$("#hour_counter").flipCounter(
+		        "startAnimation", // scroll counter from the current number to the specified number
+		        {
+		                number: year_total, // the number we want the counter to scroll to
+		                easing: jQuery.easing.easeOutCubic, // this easing function to apply to the scroll.
+		                duration: 1000 // number of ms animation should take to complete
+		        });
+				break;
+			default:
+				$("#hour_counter").flipCounter(
+		        "startAnimation", // scroll counter from the current number to the specified number
+		        {
+		                number: hour_total, // the number we want the counter to scroll to
+		                easing: jQuery.easing.easeOutCubic, // this easing function to apply to the scroll.
+		                duration: 1000 // number of ms animation should take to complete
+		        }); 
+		}
+	}
+        </script>
+
+</body>
+</html>

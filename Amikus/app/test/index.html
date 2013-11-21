@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			function test_post()
+			{
+				$.ajax({
+					url: "http://api.tallyapp.bananastand.co/auth/register",
+					type: 'POST',
+					data: { username: "stesvvfee", email: "tedst@tesfdt.com", password: 'testtest'},
+					dataType: 'json',
+					error: function(jqXHR, textStatus, errorThrow){
+						alert(errorThrow);
+					},
+					success: function(data){
+						if (data.response == 'error')
+						{
+								for (xx in data.error)
+								{
+									alert(data.error[xx]);
+								}
+						}
+
+
+					}
+				});
+			}
+			</script>
+	
+	</head>
+	<body>
+		<a onclick="test_post();" href="#">Test</a>
+		<div id="data">
+		</div>
+	</body>
+</html>

@@ -1,0 +1,195 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+html {
+	border-left: 5px solid #4D4D4D;
+	border-right: 5px solid #4D4D4D;
+	border-radius: 7px;
+	height:100%;
+	background-color: #F2F2F2;
+}
+body{
+	background-color: #F2F2F2;
+}
+
+
+div .panel{
+    background-color: #fff;
+    border-radius:10;
+    box-shadow: 2px 4px 6px #000000;
+    padding:15px;
+    
+}
+
+.nav-bar{
+	margin-top: 0px;
+	font-size:1.5em;
+	font-weight:bold;
+}
+fieldset{
+	background-color:#fff;
+}
+
+legend {
+	border-radius:3px;
+}
+h3, h4{
+	text-align: center;
+}
+h4{
+	font-size: 1em;
+}
+
+#error_box1, #error_box2{
+	display: none;
+	margin-top: 5px;
+	color: red;
+	font-size: .8em;
+}
+
+#create_modal span{
+	font-size: .8em;
+}
+#top{
+    height: 120px;
+    width:  100%;
+    overflow: hidden;
+    border-radius: 5px;
+    padding:0;
+    margin:0;
+}
+#pic{
+    display: inline-block;
+    height: 50%;
+    *width: 25%;
+    background-color: #298ed2;
+    background-image: url('../images/default_profile_imgs/small/pirateface_overlay_sm.png');
+    float:left;
+    border-radius: 5px;
+    min-width: 62px;
+}
+
+#info{
+    display: inline-block;
+    height:60px;
+    width:73%;
+    float: left;
+    padding:0px 0px 0px 5px;
+    margin: 0 0 5px 0;
+}
+
+#name, #stats, #description{
+    padding:0px 0px 10px 0px;
+}
+#name {
+    font-weight:bold;
+}
+
+#stats{
+	
+}
+
+#stats > div {
+	display: inline-block;
+	border:solid 1px #E6E6E6;
+	margin: 0px;
+	padding:0 0px 0 0px;
+	width:33%;
+	text-align:center;
+	float:left;
+}
+
+
+
+#actions {
+	display: block;
+	
+	float:left;
+	margin:10px 0px 3px 0px;
+}
+
+#tally_type{
+   background: transparent;
+   width: 100%;
+   padding: 5px;
+   font-size: 16px;
+   border: 0px solid #ccc;
+
+}
+
+
+#dropdown{
+	padding: 3px;
+
+}
+
+#tally_label {
+	font-weight: bold;
+	color: #999;
+}
+
+.value{
+	font-weight: bold;
+	
+}
+.li_item{
+	height:35px;
+	border-bottom: solid 1px #E6E6E6;
+	margin-bottom: 8px;
+}
+
+ul{
+	display:block;
+}
+
+li {
+	list-style: none;
+
+}
+
+.tally_image{
+	height:26px;
+	width: 26px;
+	border:2px solid orange;
+	background-color: #298ed2;
+	/*background-image: url('../images/default_button.png');*/
+	display: inline-block;
+	vertical-align:middle;
+	border-radius:2px;
+	
+}
+
+.tally_item_info{
+	display: inline-block;
+	font-weight: bold;
+	color:black;
+}
+
+#tally_ul_container{
+	
+}
+
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+

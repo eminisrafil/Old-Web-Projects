@@ -1,0 +1,37 @@
+[12-Aug-2012 13:21:02] PHP Fatal error:  Call to a member function email_check() on a non-object in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 47
+[12-Aug-2012 13:21:20] PHP Fatal error:  Call to a member function register() on a non-object in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 62
+[12-Aug-2012 13:44:58] PHP Parse error:  syntax error, unexpected T_DEFAULT in /home3/amikus1/public_html/bananastand/tallyapp/api/application/models/ion_auth_model.php on line 831
+[12-Aug-2012 14:30:25] PHP Fatal error:  Call to a member function email_check() on a non-object in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 46
+[12-Aug-2012 14:30:56] PHP Fatal error:  Call to a member function email_check() on a non-object in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 46
+[12-Aug-2012 14:31:13] PHP Fatal error:  Call to a member function email_check() on a non-object in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 46
+[12-Aug-2012 14:31:30] PHP Fatal error:  Call to a member function email_check() on a non-object in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 46
+[12-Aug-2012 14:31:53] PHP Fatal error:  Call to a member function email_check() on a non-object in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 46
+[12-Aug-2012 14:32:16] PHP Parse error:  syntax error, unexpected T_DEFAULT in /home3/amikus1/public_html/bananastand/tallyapp/api/application/models/ion_rest_model.php on line 466
+[12-Aug-2012 14:32:50] PHP Parse error:  syntax error, unexpected T_DEFAULT in /home3/amikus1/public_html/bananastand/tallyapp/api/application/models/ion_rest_model.php on line 466
+[12-Aug-2012 14:37:01] PHP Parse error:  syntax error, unexpected T_DEFAULT in /home3/amikus1/public_html/bananastand/tallyapp/api/application/models/ion_rest_model.php on line 450
+[12-Aug-2012 14:50:07] PHP Parse error:  syntax error, unexpected T_DEFAULT in /home3/amikus1/public_html/bananastand/tallyapp/api/application/models/ion_rest_model.php on line 457
+[12-Aug-2012 15:02:23] PHP Parse error:  syntax error, unexpected T_DEFAULT in /home3/amikus1/public_html/bananastand/tallyapp/api/application/models/ion_rest_model.php on line 463
+[12-Aug-2012 15:02:37] PHP Parse error:  syntax error, unexpected T_DEFAULT in /home3/amikus1/public_html/bananastand/tallyapp/api/application/models/ion_rest_model.php on line 463
+[12-Aug-2012 15:04:14] PHP Parse error:  syntax error, unexpected T_DEFAULT in /home3/amikus1/public_html/bananastand/tallyapp/api/application/models/ion_rest_model.php on line 463
+[12-Aug-2012 15:04:37] PHP Parse error:  syntax error, unexpected T_DEFAULT in /home3/amikus1/public_html/bananastand/tallyapp/api/application/models/ion_rest_model.php on line 463
+[12-Aug-2012 15:05:07] PHP Parse error:  syntax error, unexpected T_DEFAULT in /home3/amikus1/public_html/bananastand/tallyapp/api/application/models/ion_rest_model.php on line 463
+[12-Aug-2012 15:05:38] PHP Parse error:  syntax error, unexpected T_DEFAULT in /home3/amikus1/public_html/bananastand/tallyapp/api/application/models/ion_rest_model.php on line 463
+[12-Aug-2012 15:54:19] PHP Fatal error:  Call to a member function email_check() on a non-object in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 45
+[12-Aug-2012 15:56:22] PHP Fatal error:  Call to undefined method Ion_rest_model::where() in /home3/amikus1/public_html/bananastand/tallyapp/api/application/models/ion_rest_model.php on line 423
+[12-Aug-2012 16:24:02] PHP Parse error:  syntax error, unexpected '{' in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 13
+[12-Aug-2012 16:25:14] PHP Parse error:  syntax error, unexpected '{' in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 13
+[12-Aug-2012 16:26:29] PHP Parse error:  syntax error, unexpected '{' in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 13
+[12-Aug-2012 16:26:52] PHP Parse error:  syntax error, unexpected '{' in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 13
+[12-Aug-2012 16:32:38] PHP Parse error:  syntax error, unexpected '{' in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 13
+[12-Aug-2012 18:00:58] PHP Parse error:  syntax error, unexpected '{' in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 13
+[13-Aug-2012 01:55:03] PHP Parse error:  syntax error, unexpected '{' in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 13
+[13-Aug-2012 01:56:45] PHP Parse error:  syntax error, unexpected '{' in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 13
+[13-Aug-2012 01:57:13] PHP Parse error:  syntax error, unexpected '{' in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 13
+[13-Aug-2012 01:57:21] PHP Parse error:  syntax error, unexpected '}' in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 15
+[13-Aug-2012 01:57:54] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 15
+[13-Aug-2012 01:58:18] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 15
+[16-Aug-2012 13:03:39] PHP Parse error:  syntax error, unexpected '(', expecting T_STRING or T_VARIABLE or '{' or '$' in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 163
+[16-Aug-2012 13:05:45] PHP Parse error:  syntax error, unexpected '(', expecting T_STRING or T_VARIABLE or '{' or '$' in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 163
+[16-Aug-2012 13:06:41] PHP Parse error:  syntax error, unexpected '(', expecting T_STRING or T_VARIABLE or '{' or '$' in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 164
+[16-Aug-2012 13:13:04] PHP Parse error:  syntax error, unexpected '(', expecting T_STRING or T_VARIABLE or '{' or '$' in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 164
+[16-Aug-2012 13:18:05] PHP Parse error:  syntax error, unexpected '}' in /home3/amikus1/public_html/bananastand/tallyapp/api/application/controllers/auth.php on line 207

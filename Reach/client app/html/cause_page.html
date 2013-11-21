@@ -1,0 +1,48 @@
+<div id="wrapper">
+    <div id="slider">
+        <!-- Pages scroll horizontally -->
+        <div class="page">
+            <h2>Browse Cause</h2>
+            <ul id="thelist">
+                <!-- List inserted with JS -->
+            </ul>
+        </div>
+
+        <div class="page">
+            <h2>My Causes</h2>
+            <ul id="thelist2">
+                <!-- List inserted with JS -->
+            </ul>
+        </div>
+
+        <div class="page">
+            <h2>Create Cause</h2>
+            <button type="button" id="create_cause_button" onclick=c reate_cause_transition();>Start New Cause</button>
+            <ul id="create_cause_form">
+                <li>
+                    <input class="create" type="text" name="cause_name" id="cause_name" placeholder="Cause Name" size="20" />
+                </li>
+                <li>
+                    <input class="create" type="text" name="cause_description" id="cause_description" placeholder="Cause Description" size="20" />
+                </li>
+                <li>
+                    <input class="create" type="text" name="cause_location" id="cause_location" placeholder="Location (Street or Zip) --Leave Blank to Use Current Location" size="20" />
+                </li>
+                <li>
+                    <select onchange="password_reveal(this);" class="create" id="cause_privacy">
+                        <option>Public Cause</option>
+                        <option>Private Cause</option>
+                    </select>
+                </li>
+                <li id="password_li">
+                    <input class="create" type="password" name="cause_password" id="cause_password" placeholder="Password" size="20" />
+                </li>
+                <li>
+                    <button type="button" id="create_cause_submit_button" onclick=c reate_cause();>submit</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="cause_page.js"></script>

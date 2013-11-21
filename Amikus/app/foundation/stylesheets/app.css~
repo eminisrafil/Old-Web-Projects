@@ -1,0 +1,114 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+html {
+	border: 0 5px 0 5px solid #4D4D4D;
+	border-radius: 7px;
+	height:100%;
+	background-color: #F2F2F2;
+}
+body{
+	background-color: #F2F2F2;
+}
+
+
+div .panel{
+    background-color: #fff;
+    border-radius:10;
+    box-shadow: 2px 4px 6px #000000;
+    padding:15px;
+    
+}
+
+.nav-bar{
+	margin-top: 0px;
+}
+#top{
+    height: 120px;
+    width:  100%;
+    overflow: hidden;
+    border-radius: 5px;
+    padding:0;
+    margin:0;
+}
+#pic{
+    display: inline-block;
+    height: 50%;
+    width: 25%;
+    background-color: blue;
+    float:left;
+    border-radius: 5px;
+    min-width: 62px;
+}
+
+#info{
+    display: inline-block;
+    height:60px;
+    width:73%;
+    float: left;
+    padding:0px 0px 0px 5px;
+    margin: 0 0 5px 0;
+}
+
+#name, #stats, #description{
+    padding:0px 0px 10px 0px;
+}
+#name {
+    font-weight:bold;
+}
+
+
+#stats > div {
+	display: inline-block;
+	border:solid 1px #E6E6E6;
+	margin: 0px;
+	padding:0 0px 0 0px;
+	width:33%;
+	text-align:center;
+	float:left;
+}
+
+
+#actions {
+	display: block;
+	height:10px;
+	border:solid 1px #E6E6E6;
+	float:left;
+}
+
+
+
+#tally_label {
+	font-weight: bold;
+	color: #999;
+}
+
+.value{
+	font-weight: bold;
+	
+}
+
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+

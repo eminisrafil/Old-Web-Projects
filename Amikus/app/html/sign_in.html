@@ -1,0 +1,142 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <title>Amikus</title>
+
+    <!-- Included CSS Files (Uncompressed) -->
+    <!--
+	  <link rel="stylesheet" href="stylesheets/foundation.css">
+	  -->
+
+    <!-- Included CSS Files (Compressed) -->
+    <link rel="stylesheet" href="foundation/stylesheets/foundation.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <script src="foundation/javascripts/modernizr.foundation.js"></script>
+
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="twelve columns">
+            <h3>Welcome to Amikus</h3>
+            <hr />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="twelve columns">
+            <fieldset class="twelve columns">
+                <legend>Login</legend>
+                <br />
+                <input id="identity" type="text" placeholder="Username or Email" />
+                <input id="password" type="password" placeholder="Password" />
+            </fieldset>
+            <br/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns">
+            <div class="panel" id="error_box1">
+                <div class="error_box">error: you're a cunt</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="twelve columns">
+            <div id="sign_in_button">
+                <p><a href="#" class="success button">Sign in</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="twelve columns">
+            <p><a href="#" data-reveal-id="create_modal" data-dismiss-modal-class="cancel-reveal-modal" class="button" id="create_signup_form">Create</a>
+            </p>
+        </div>
+    </div>
+
+    <div id="create_modal" class="reveal-modal">
+        <h3>Lucky you</h3>
+        <fieldset class="twelve columns">
+            <legend class="twelve columns">New Account</legend>
+            <br>
+            <input id="new_username" type="text" placeholder="Username" />
+            <input id="new_password" type="password" placeholder="Password" />
+            <input id="new_email" type="email" placeholder="Email" />
+            <label for="checkbox1">
+                <input type="checkbox" class="custom" id="awesome" value='true' style="display: in-line block;">
+                <span class="custom checkbox">Check if you're awesome.</span>
+            </label>
+            <br />
+        </fieldset>
+        <div class="row">
+            <div class="twelve columns">
+                <div class="panel" id="error_box2">
+                    <div class="error_box">error</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <br />
+                <p><a href="#" class="success button" id="create_new_account">Create!</a>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <br />
+                <p><a href="#" class="alert button cancel-reveal-modal">Cancel</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Included JS Files (Uncompressed) -->
+    <script src="foundation/javascripts/modernizr.foundation.js"></script>
+
+    <script src="foundation/javascripts/jquery.js"></script>
+
+    <script src="foundation/javascripts/jquery.foundation.mediaQueryToggle.js"></script>
+
+    <script src="foundation/javascripts/jquery.foundation.reveal.js"></script>
+
+    <script src="foundation/javascripts/jquery.foundation.orbit.js"></script>
+
+    <script src="foundation/javascripts/jquery.foundation.navigation.js"></script>
+
+    <script src="foundation/javascripts/jquery.foundation.buttons.js"></script>
+
+    <script src="foundation/javascripts/jquery.foundation.tabs.js"></script>
+
+    <script src="foundation/javascripts/jquery.foundation.forms.js"></script>
+
+    <script src="foundation/javascripts/jquery.foundation.tooltips.js"></script>
+
+    <script src="foundation/javascripts/jquery.foundation.accordion.js"></script>
+
+    <script src="foundation/javascripts/jquery.placeholder.js"></script>
+
+    <script src="foundation/javascripts/jquery.foundation.alerts.js"></script>
+
+    <!-- Included JS Files (Compressed) 
+	  <script src="javascripts/foundation.min.js"></script>
+	  -->
+    <!-- Initialize JS Plugins -->
+    <script src="js/app.js"></script>
+    <!-- sign_in.html js doc, put in appropriate folder -->
+    <script src="sign_in.js"></script>
+</body>
+
+</html>

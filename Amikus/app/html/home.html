@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Amikus</title>
+    
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="foundation/stylesheets/foundation.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <script src="foundation/javascripts/modernizr.foundation.js"></script>
+</head>
+
+<body>
+    <ul class="nav-bar">
+        <li class="has-flyout">
+            <a href="#">Amikus</a>
+            <a href="#" class="flyout-toggle">
+                <span></span>
+            </a>
+            <ul class="flyout">
+                <li><a href="/home.html">My Profile</a>
+                </li>
+                <li><a href="#">Find Friends</a>
+                </li>
+                <li><a href="#" data-reveal-id="edit_profile_modal">Edit Profile</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <div class="row">
+        <div class="twelve columns">
+            <div class="row">
+                <div class="twelve columns">
+                    <br/>
+                    <div class="panel radius">
+                        <div id="top">
+                            <div id="pic">
+                            </div>
+                            <div id="info">
+                                <div id="name">
+                                    NAME: Tobias
+                                </div>
+                                <div id="description">
+                                    Description: Worlds best Analyst and Therapist
+                                </div>
+                            </div>
+                            <!--info-->
+                            <div id="stats">
+                                <div id="stat1">
+                                    <div class="value">51</div>
+                                    <div class="key">Tallys</div>
+                                </div>
+                                <div id="stat2">
+                                    <div class="value">3</div>
+                                    <div class="key">Challenges</div>
+                                </div>
+                                <div id="stat3">
+                                    <div class="value">5</div>
+                                    <div class="key">Challengers</div>
+                                </div>
+                            </div>
+                            <!-- Stats-->
+                            <div id="actions">
+                                <span class="[radius, round] [secondary, alert, success] label">Action1</span>
+                                <span class="[radius, round] [secondary, alert, success] label">Action2</span>
+                                <span class="[radius, round] [secondary, alert, success] label">Action3</span>
+                            </div>
+                        </div>
+                        <!--top-->
+                    </div>
+                    <!--panel-->
+                </div>
+                <!--12 columns-->
+            </div>
+            <!--row-->
+            <div class="row">
+                <div class="twelve columns">
+                    <br/>
+                    <div class="panel radius" id="dropdown">
+                        <div id="current_tally">
+                            <select id="tally_type">
+                                <option value="Beers">Tallying Beers</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!--panel-->
+                </div>
+                <!--12 columns-->
+            </div>
+            <!--row-->
+            <div id="tally_label">Tallys</div>
+            <br/>
+            <div class="row">
+                <div class="twelve columns">
+                    <div class="panel radius">
+                        <div id="tally_ul_container">
+                            <ul>
+                                <li class="li_item">
+                                    <div class="tally_image"></div>
+                                    <div class="tally_item_info">Five Beers at pregame</div>
+                                </li>
+                                <li class="li_item">
+                                    <div class="tally_image"></div>
+                                    <div class="tally_item_info">Two Beers at Wicked Monk</div>
+                                </li>
+                                <li class="li_item">
+                                    <div class="tally_image"></div>
+                                    <div class="tally_item_info">One Beer at 3 jps</div>
+                                </li>
+                                <li class="li_item">
+                                    <div class="tally_image"></div>
+                                    <div class="tally_item_info">Five Beers at pregame</div>
+                                </li>
+                                <li class="li_item">
+                                    <div class="tally_image"></div>
+                                    <div class="tally_item_info">Two Beers at Wicked Monk</div>
+                                </li>
+                                <li class="li_item">
+                                    <div class="tally_image"></div>
+                                    <div class="tally_item_info">One Beer at 3 jps</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--ul container-->
+                    </div>
+                    <!--panel-->
+                </div>
+                <!--12 columns-->
+            </div>
+            <!--row-->
+        </div>
+        <!--12 columns-->
+    </div>
+    <!--row-->
+
+
+    <!---modals---->
+    <div id="edit_profile_modal" class="reveal-modal">
+        <h4>Fill in fields that you want to change.</h4>
+        <fieldset class="twelve columns">
+            <legend class="twelve columns">Edit Account</legend>
+            <textarea id="new_description" row="3" col="50" placeholder="150 Char Description" /></textarea>
+            <input id="phone_number" type="text" placeholder="Phone Number" />
+            <input id="new_username" type="text" placeholder="Change Username" />
+            <input id="new_email" type="email" placeholder="Change Email" />
+            <input id="old_password" type="password" placeholder="Old Password" />
+            <input id="new_password" type="password" placeholder="New Password" />
+
+            <p>Privacy - Profile is seen by:</p>
+            <select id="privacy_select">
+                <option value="Everyone">Everyone</option>
+                <option value="Friends">Friends</option>
+                <option value="Nobody">Nobody</option>
+            </select>
+            <br />
+        </fieldset>
+        <div class="row">
+            <div class="twelve columns">
+                <div class="panel" id="error_box2">
+                    <div class="error_box">error</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
+                <br />
+                <p><a href="#" class="success button" id="edit_account">Update!</a>
+                </p>
+            </div>
+        </div>
+        <a class="close-reveal-modal">×</a>
+    </div>
+
+
+
+    <!-- Included JS Files (Uncompressed) -->
+
+
+    <script src="foundation/javascripts/modernizr.foundation.js"></script>
+
+    <script src="foundation/javascripts/jquery.js"></script>
+
+    <script src="foundation/javascripts/jquery.foundation.mediaQueryToggle.js"></script>
+
+    <script src="foundation/javascripts/jquery.foundation.reveal.js"></script>
+
+    <script src="foundation/javascripts/jquery.foundation.orbit.js"></script>
+
+    <script src="foundation/javascripts/jquery.foundation.navigation.js"></script>
+
+    <script src="foundation/javascripts/jquery.foundation.buttons.js"></script>
+
+    <script src="foundation/javascripts/jquery.foundation.tabs.js"></script>
+
+    <script src="foundation/javascripts/jquery.foundation.forms.js"></script>
+
+    <script src="foundation/javascripts/jquery.foundation.tooltips.js"></script>
+
+    <script src="foundation/javascripts/jquery.foundation.accordion.js"></script>
+
+    <script src="foundation/javascripts/jquery.placeholder.js"></script>
+
+    <script src="foundation/javascripts/jquery.foundation.alerts.js"></script>
+
+
+
+    <!-- Included JS Files (Compressed) 
+	  <script src="foundation/javascripts/foundation.min.js"></script>
+	  -->
+    <!-- Initialize JS Plugins -->
+    <script src="js/app.js"></script>
+    <script src="home.js"></script>
+</body>
+
+</html>

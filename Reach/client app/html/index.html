@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" media="screen" href="Reachly.css">
+
+    <title>Reach</title>
+    <script type="text/javascript" charset="utf-8">
+    var login_id = 0;
+
+    function load_data() {
+        if (login_id == 0) {
+            window.location.replace('login.html');
+
+        } else {
+            window.location.replace('home.html');
+        }
+    }
+    </script>
+</head>
+
+<body onload="load_data();"></body>
+
+</html>

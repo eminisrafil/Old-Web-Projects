@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" media="screen" href="Reachly_register.css">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width, 
+		minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Reach - Registration</title>
+</head>
+
+<body align="center">
+    <div id="top_space">
+        <br>
+    </div>
+    <div id="logo_pusher"></div>
+    <div id="logo">
+        <img src="media/Reach_helvetica_square.png" alt="Reachly">
+    </div>
+    <div id="logo_pusher_2"></div>
+    <div>
+        <br/>
+    </div>
+
+    <!--~ Each of these is a 'page' that gets displayed sequentially with JS ~-->
+    <!--~~~~~~~~~~~~~~  Initial Login Form (registration_state = 1)~~~~~~~~~~~-->
+    <div id="login">
+        <form id="login_form" method="post" onsubmit="return false">
+            <input type="text" class="login" id="identity" name="identity" placeholder="Username or Email">
+            <br>
+            <input type="password" class="login" id="password2" name="password2" placeholder="Password">
+            <br>
+            <div class="submit_pusher">.</div>
+            <button type="submit" class="submit">&#8629;</button>
+        </form>
+        <div class="register_err_message"></div>
+        <br>
+    </div>
+
+    <!--~~~~~~~~~~~~~~~ Registration Form (registration_state = 2) ~~~~~~~~~~~~~~-->
+    <div id="registration">
+        <div id="reg_mess_1">
+            <p>What is your name?</p>
+        </div>
+        <div id="reg_mess_2">
+            <p></p>
+        </div>
+        <form id="register" onsubmit="return false">
+            <input type="text" class="login" id="first_name" name="first_name" placeholder="First Name">
+            <input type="text" class="login" id="last_name" name="last_name" placeholder="Last Name">
+            <br>
+            <div class="submit_pusher">.</div>
+            <button type="submit" class="submit">&#8629;</button>
+        </form>
+        <div class="register_err_message"></div>
+    </div>
+
+    <!--~~~~~~~~~~~~~~~ Last Page Registration Form (registration_state = 3)~~~~~~~~~~~~~~-->
+    <div id="registration2">
+        <form name="signup" onsubmit="return false">
+            <ul>
+                <li>
+                    <input class="login" type="text" name="new_username" id="new_username" placeholder="Username (optional)" size="20" />
+                </li>
+                <li>
+                    <input class="login" type="text" name="new_email" id="new_email" placeholder="Email" size="20" />
+                </li>
+                <li>
+                    <input class="login" type="password" name="new_nassword" id="new_password" placeholder="Password" size="20" />
+                </li>
+            </ul>
+            <br>
+            <div class="submit_pusher">.</div>
+            <button type="submit" class="submit">&#8629;</button>
+        </form>
+        <div class="register_err_message"></div>
+    </div>
+    <div id="login_footer">
+        <span id="create" class="login_footer_element">create</span>
+        <span id="version" class="login_footer_element">Version: Hendrix</span>
+        <span id="connect" class="login_footer_element">connect</span>
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/register.js"></script>
+</body>
+
+</html>
