@@ -5,7 +5,7 @@ Old Web Projects (about 2011) PHP/JS/HTML/CSS
 
 
 - **Amikus**  
-  *A Phonegap Social Tally App for sharing accomplishments and challanging friends.*  
+  *A Phonegap Social Tally App for sharing accomplishments and challenging friends.*  
   Status: Unfinished, never released  
   Contributors:
   - Steve Peek, API, PHP & CodeIgnitor  
