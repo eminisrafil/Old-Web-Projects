@@ -18,8 +18,7 @@ Old Web Projects (about 2011) PHP/JS/HTML/CSS
   Quick Link to Interesting Code: 
 [Animated Register.js] (https://github.com/eminisrafil/Old-Web-Projects/blob/master/Reach/client%20app/js/register.js),
 [Register.html] (https://github.com/eminisrafil/Old-Web-Projects/blob/master/Reach/client%20app/html/register.html),
-[Cause\_page.js] (https://github.com/eminisrafil/Old-Web-Projects/blob/master/Reach/client%20app/js/cause\_page.js) | 
-[Cause\_page.js] (https://github.com/eminisrafil/Old-Web-Projects/blob/master/Reach/client%20app/js/cause\_page.js)
+[Cause\_page.js] (https://github.com/eminisrafil/Old-Web-Projects/blob/master/Reach/client%20app/js/cause\_page.js) 
 
   Contributors:
   - Emin Israfil, API, PHP  
@@ -27,7 +26,7 @@ Old Web Projects (about 2011) PHP/JS/HTML/CSS
 
 - **ProfileGraveyard**  
    *A social media obituary for your old myspace, aim, friendster, etc, accounts. 
-   Similiar to to FML.com and TextFromLastNight.com, users share social media horror stories and the reasons
+   Similar to to FML.com and TextFromLastNight.com, users share social media horror stories and the reasons
    they disabled their old accounts.*
  
    Status: Finished, and was deployed to AWS and even got a little popular:  
