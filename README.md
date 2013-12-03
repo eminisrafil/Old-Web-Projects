@@ -27,7 +27,8 @@ Old Web Projects (about 2011) PHP/JS/HTML/CSS
 - **ProfileGraveyard**  
    *A social media obituary for your old myspace, aim, friendster, etc, accounts. 
    Similar to to FML.com and TextFromLastNight.com, users share social media horror stories and the reasons
-   they disabled their old accounts.*
+   they disabled their old accounts. Google Maps was used to display deactivation trends around the country. 
+*
  
    Status: Finished, and was deployed to AWS and even got a little popular:  
   - http://uwire.com/2011/10/27/website-explores-why-people-delete-social-media-profiles/
